@@ -14,10 +14,9 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/yehorchernenko/CountryPickerIOS.git", :tag => "1.0.0" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source_files  = "CountryPickerView/**"
+s.source_files  = "CountryPickerView/Classes/**"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #s.resource  = "CountryPickerView/Resources/**"
   s.resources = "CountryPickerView/Resources/**"
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

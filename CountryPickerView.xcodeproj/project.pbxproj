@@ -53,6 +53,21 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		74FF72532131BD00003DFD0C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				751CDDD7212DB06100E55A0F /* CountryPickerList.swift */,
+				751CDDDA212DB06100E55A0F /* CountryModel.swift */,
+				751CDDD8212DB06100E55A0F /* CountryPickerListOutput.swift */,
+				751CDDDC212DB06100E55A0F /* CountryPickerView.swift */,
+				751CDDDD212DB06100E55A0F /* CountryPickerView.xib */,
+				751CDDDE212DB06100E55A0F /* CountryPickerListDelegate.swift */,
+				751CDDDF212DB06100E55A0F /* Country.swift */,
+				751CDDE1212DB06100E55A0F /* NibView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		751CDDBE212DB05100E55A0F = {
 			isa = PBXGroup;
 			children = (
@@ -72,14 +87,7 @@
 		751CDDCA212DB05100E55A0F /* CountryPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				751CDDD7212DB06100E55A0F /* CountryPickerList.swift */,
-				751CDDDA212DB06100E55A0F /* CountryModel.swift */,
-				751CDDD8212DB06100E55A0F /* CountryPickerListOutput.swift */,
-				751CDDDC212DB06100E55A0F /* CountryPickerView.swift */,
-				751CDDDD212DB06100E55A0F /* CountryPickerView.xib */,
-				751CDDDE212DB06100E55A0F /* CountryPickerListDelegate.swift */,
-				751CDDDF212DB06100E55A0F /* Country.swift */,
-				751CDDE1212DB06100E55A0F /* NibView.swift */,
+				74FF72532131BD00003DFD0C /* Classes */,
 				74FF72332131B117003DFD0C /* Resources */,
 				751CDDCB212DB05100E55A0F /* CountryPickerView.h */,
 				751CDDCC212DB05100E55A0F /* Info.plist */,
