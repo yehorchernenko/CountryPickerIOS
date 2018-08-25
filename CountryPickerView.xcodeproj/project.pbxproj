@@ -45,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74FF72332131B117003DFD0C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				751CDDD5212DB06100E55A0F /* CountryPickerView.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		751CDDBE212DB05100E55A0F = {
 			isa = PBXGroup;
 			children = (
@@ -64,59 +72,19 @@
 		751CDDCA212DB05100E55A0F /* CountryPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				751CDDD4212DB06100E55A0F /* Resources */,
-				751CDDD6212DB06100E55A0F /* List */,
-				751CDDD9212DB06100E55A0F /* Model */,
-				751CDDDB212DB06100E55A0F /* View */,
-				751CDDE0212DB06100E55A0F /* Helpers */,
-				751CDDCB212DB05100E55A0F /* CountryPickerView.h */,
-				751CDDCC212DB05100E55A0F /* Info.plist */,
-			);
-			path = CountryPickerView;
-			sourceTree = "<group>";
-		};
-		751CDDD4212DB06100E55A0F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				751CDDD5212DB06100E55A0F /* CountryPickerView.bundle */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		751CDDD6212DB06100E55A0F /* List */ = {
-			isa = PBXGroup;
-			children = (
 				751CDDD7212DB06100E55A0F /* CountryPickerList.swift */,
-				751CDDD8212DB06100E55A0F /* CountryPickerListOutput.swift */,
-			);
-			path = List;
-			sourceTree = "<group>";
-		};
-		751CDDD9212DB06100E55A0F /* Model */ = {
-			isa = PBXGroup;
-			children = (
 				751CDDDA212DB06100E55A0F /* CountryModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		751CDDDB212DB06100E55A0F /* View */ = {
-			isa = PBXGroup;
-			children = (
+				751CDDD8212DB06100E55A0F /* CountryPickerListOutput.swift */,
 				751CDDDC212DB06100E55A0F /* CountryPickerView.swift */,
 				751CDDDD212DB06100E55A0F /* CountryPickerView.xib */,
 				751CDDDE212DB06100E55A0F /* CountryPickerListDelegate.swift */,
 				751CDDDF212DB06100E55A0F /* Country.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		751CDDE0212DB06100E55A0F /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
 				751CDDE1212DB06100E55A0F /* NibView.swift */,
+				74FF72332131B117003DFD0C /* Resources */,
+				751CDDCB212DB05100E55A0F /* CountryPickerView.h */,
+				751CDDCC212DB05100E55A0F /* Info.plist */,
 			);
-			path = Helpers;
+			path = CountryPickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

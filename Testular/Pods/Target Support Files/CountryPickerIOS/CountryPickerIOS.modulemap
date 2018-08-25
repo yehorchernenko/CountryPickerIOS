@@ -1,0 +1,6 @@
+framework module CountryPickerIOS {
+  umbrella header "CountryPickerIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

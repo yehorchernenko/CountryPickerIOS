@@ -1,0 +1,16 @@
+PODS:
+  - CountryPickerIOS (1.0.0)
+
+DEPENDENCIES:
+  - CountryPickerIOS (from `../`)
+
+EXTERNAL SOURCES:
+  CountryPickerIOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CountryPickerIOS: 7586144a3ce593b93a3d01611481b28910687c3b
+
+PODFILE CHECKSUM: 9e128243c1d19b37d3ab844132ce62b987ada59b
+
+COCOAPODS: 1.5.3

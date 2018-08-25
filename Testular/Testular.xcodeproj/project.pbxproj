@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74FF72202131AAEA003DFD0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FF721F2131AAEA003DFD0C /* AppDelegate.swift */; };
+		74FF72222131AAEA003DFD0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FF72212131AAEA003DFD0C /* ViewController.swift */; };
+		74FF72252131AAEA003DFD0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FF72232131AAEA003DFD0C /* Main.storyboard */; };
+		74FF72272131AAEB003DFD0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74FF72262131AAEB003DFD0C /* Assets.xcassets */; };
+		74FF722A2131AAEB003DFD0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FF72282131AAEB003DFD0C /* LaunchScreen.storyboard */; };
+		940AFA1C99C875C742438CA4 /* Pods_Testular.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF03111B44A4FEE9205A3B5F /* Pods_Testular.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B0B60E8232B1D1CA1C73FDF /* Pods-Testular.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Testular.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Testular/Pods-Testular.debug.xcconfig"; sourceTree = "<group>"; };
+		74FF721C2131AAEA003DFD0C /* Testular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testular.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74FF721F2131AAEA003DFD0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74FF72212131AAEA003DFD0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74FF72242131AAEA003DFD0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74FF72262131AAEB003DFD0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74FF72292131AAEB003DFD0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74FF722B2131AAEB003DFD0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5BBE78231A98A77287454E2 /* Pods-Testular.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Testular.release.xcconfig"; path = "Pods/Target Support Files/Pods-Testular/Pods-Testular.release.xcconfig"; sourceTree = "<group>"; };
+		DF03111B44A4FEE9205A3B5F /* Pods_Testular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Testular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74FF72192131AAEA003DFD0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940AFA1C99C875C742438CA4 /* Pods_Testular.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74FF72132131AAEA003DFD0C = {
+			isa = PBXGroup;
+			children = (
+				74FF721E2131AAEA003DFD0C /* Testular */,
+				74FF721D2131AAEA003DFD0C /* Products */,
+				E6E4796FFCD356E133D2975B /* Pods */,
+				965FEDF9084B6631AB32A9B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74FF721D2131AAEA003DFD0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74FF721C2131AAEA003DFD0C /* Testular.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74FF721E2131AAEA003DFD0C /* Testular */ = {
+			isa = PBXGroup;
+			children = (
+				74FF721F2131AAEA003DFD0C /* AppDelegate.swift */,
+				74FF72212131AAEA003DFD0C /* ViewController.swift */,
+				74FF72232131AAEA003DFD0C /* Main.storyboard */,
+				74FF72262131AAEB003DFD0C /* Assets.xcassets */,
+				74FF72282131AAEB003DFD0C /* LaunchScreen.storyboard */,
+				74FF722B2131AAEB003DFD0C /* Info.plist */,
+			);
+			path = Testular;
+			sourceTree = "<group>";
+		};
+		965FEDF9084B6631AB32A9B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF03111B44A4FEE9205A3B5F /* Pods_Testular.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6E4796FFCD356E133D2975B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B0B60E8232B1D1CA1C73FDF /* Pods-Testular.debug.xcconfig */,
+				C5BBE78231A98A77287454E2 /* Pods-Testular.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74FF721B2131AAEA003DFD0C /* Testular */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74FF722E2131AAEB003DFD0C /* Build configuration list for PBXNativeTarget "Testular" */;
+			buildPhases = (
+				F9C0D57207F4C68AEDF751F3 /* [CP] Check Pods Manifest.lock */,
+				74FF72182131AAEA003DFD0C /* Sources */,
+				74FF72192131AAEA003DFD0C /* Frameworks */,
+				74FF721A2131AAEA003DFD0C /* Resources */,
+				172102AE2BA462772BD8147B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Testular;
+			productName = Testular;
+			productReference = 74FF721C2131AAEA003DFD0C /* Testular.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74FF72142131AAEA003DFD0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Chernenko Inc.";
+				TargetAttributes = {
+					74FF721B2131AAEA003DFD0C = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 74FF72172131AAEA003DFD0C /* Build configuration list for PBXProject "Testular" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74FF72132131AAEA003DFD0C;
+			productRefGroup = 74FF721D2131AAEA003DFD0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74FF721B2131AAEA003DFD0C /* Testular */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74FF721A2131AAEA003DFD0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FF722A2131AAEB003DFD0C /* LaunchScreen.storyboard in Resources */,
+				74FF72272131AAEB003DFD0C /* Assets.xcassets in Resources */,
+				74FF72252131AAEA003DFD0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		172102AE2BA462772BD8147B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Testular/Pods-Testular-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CountryPickerIOS/CountryPickerIOS.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CountryPickerIOS.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Testular/Pods-Testular-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9C0D57207F4C68AEDF751F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Testular-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74FF72182131AAEA003DFD0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FF72222131AAEA003DFD0C /* ViewController.swift in Sources */,
+				74FF72202131AAEA003DFD0C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74FF72232131AAEA003DFD0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74FF72242131AAEA003DFD0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74FF72282131AAEB003DFD0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74FF72292131AAEB003DFD0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74FF722C2131AAEB003DFD0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74FF722D2131AAEB003DFD0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74FF722F2131AAEB003DFD0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0B60E8232B1D1CA1C73FDF /* Pods-Testular.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BB6356MAF8;
+				INFOPLIST_FILE = Testular/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chernenko.Testular.Testular;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74FF72302131AAEB003DFD0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5BBE78231A98A77287454E2 /* Pods-Testular.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BB6356MAF8;
+				INFOPLIST_FILE = Testular/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chernenko.Testular.Testular;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74FF72172131AAEA003DFD0C /* Build configuration list for PBXProject "Testular" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74FF722C2131AAEB003DFD0C /* Debug */,
+				74FF722D2131AAEB003DFD0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74FF722E2131AAEB003DFD0C /* Build configuration list for PBXNativeTarget "Testular" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74FF722F2131AAEB003DFD0C /* Debug */,
+				74FF72302131AAEB003DFD0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74FF72142131AAEA003DFD0C /* Project object */;
+}
