@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "CountryPickerView.h"
 
 FOUNDATION_EXPORT double CountryPickerIOSVersionNumber;
 FOUNDATION_EXPORT const unsigned char CountryPickerIOSVersionString[];

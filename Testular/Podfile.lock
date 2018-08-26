@@ -1,5 +1,5 @@
 PODS:
-  - CountryPickerIOS (1.0.0)
+  - CountryPickerIOS (1.0.1)
 
 DEPENDENCIES:
   - CountryPickerIOS (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CountryPickerIOS: 7586144a3ce593b93a3d01611481b28910687c3b
+  CountryPickerIOS: 85589984fa0e3960ff778b6546daca74c276e70f
 
 PODFILE CHECKSUM: 9e128243c1d19b37d3ab844132ce62b987ada59b
 
