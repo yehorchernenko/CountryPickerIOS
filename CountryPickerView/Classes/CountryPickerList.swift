@@ -35,24 +35,23 @@ public class CountryPickerList: UITableViewController {
         scrollToSelectedCountry()
     }
     
-    public override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+    public override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         
         //add search bar with animation
         prepareSearchBar()
-        navigationController?.view.setNeedsLayout()
-        UIView.animate(withDuration: 0.3) { [weak self] in
+        UIView.animate(withDuration: 0.2) { [weak self] in
             guard let strongSelf = self else { return }
-            strongSelf.navigationController?.view.layoutIfNeeded()
+            strongSelf.navigationController?.view.layoutSubviews()
         }
+        
     }
     
     public override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         
         //fix bag with black line on IOS 11.0+ that appears after pop
-        navigationController?.view.setNeedsLayout()
-        navigationController?.view.layoutIfNeeded()
+        navigationController?.view.layoutSubviews()
     }
 }
 
