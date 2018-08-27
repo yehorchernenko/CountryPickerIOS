@@ -30,10 +30,21 @@ public class CountryPickerList: UITableViewController {
         
         countryModel = output.getCountryModel()
         definePresentationStyle()
-        prepareSearchBar()
         prepareTableItems()
         tableView.reloadData()
         scrollToSelectedCountry()
+    }
+    
+    public override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        //add search bar with animation
+        prepareSearchBar()
+        navigationController?.view.setNeedsLayout()
+        UIView.animate(withDuration: 0.3) { [weak self] in
+            guard let strongSelf = self else { return }
+            strongSelf.navigationController?.view.layoutIfNeeded()
+        }
     }
     
     public override func viewWillDisappear(_ animated: Bool) {
