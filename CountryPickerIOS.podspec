@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CountryPickerIOS"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "Lighweight CountryPicker for IOS apps."
   s.description  = "CountryPicker with ISO country codes and international phone number formats."
   s.homepage     = "https://github.com/yehorchernenko/CountryPickerIOS"
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.swift_version = "4.1"
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/yehorchernenko/CountryPickerIOS.git", :tag => "1.0.2" }
+  s.source       = { :git => "https://github.com/yehorchernenko/CountryPickerIOS.git", :tag => "1.0.3" }
   s.source_files  = "CountryPickerView/Classes/**"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
