@@ -2,6 +2,12 @@
 
 CountryPickerIOS is lightweight version of [CountryPickerView](https://github.com/kizitonwose/CountryPickerView)
 
+## ScreenShots
+
+###### UITextField with left view 
+![UITextFiled](https://user-images.githubusercontent.com/23559375/44647077-b8edd780-a9e5-11e8-858d-fab3b11a38ff.png)
+###### CountryList, navBar inherits from pushed vc
+![CountryList](https://user-images.githubusercontent.com/23559375/44647389-9a3c1080-a9e6-11e8-9d6a-f4af6f906017.png)
 ## Instalation
 ### Cocoapods
 CountryPickerView is available through [CocoaPods](https://cocoapods.org). Simply add the following to your Podfile:
